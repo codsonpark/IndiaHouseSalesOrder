@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndiaHouseSalesOrder", "IndiaHouseSalesOrder\IndiaHouseSalesOrder.csproj", "{3E38B442-A9CC-48EA-A80D-2E9442639B80}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "India House QuickBooks Companion", "Quickbooks Custom Sales Order\Quickbooks Custom Sales Order.vdproj", "{CBE4C481-CF10-4AD7-8172-D581DB1BBFF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndiaHouse.Core", "IndiaHouse.Core\IndiaHouse.Core.csproj", "{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E38B442-A9CC-48EA-A80D-2E9442639B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E38B442-A9CC-48EA-A80D-2E9442639B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E38B442-A9CC-48EA-A80D-2E9442639B80}.Debug|x86.ActiveCfg = Debug|x86
+		{3E38B442-A9CC-48EA-A80D-2E9442639B80}.Debug|x86.Build.0 = Debug|x86
+		{3E38B442-A9CC-48EA-A80D-2E9442639B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E38B442-A9CC-48EA-A80D-2E9442639B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E38B442-A9CC-48EA-A80D-2E9442639B80}.Release|x86.ActiveCfg = Release|x86
+		{3E38B442-A9CC-48EA-A80D-2E9442639B80}.Release|x86.Build.0 = Release|x86
+		{CBE4C481-CF10-4AD7-8172-D581DB1BBFF7}.Debug|Any CPU.ActiveCfg = Debug
+		{CBE4C481-CF10-4AD7-8172-D581DB1BBFF7}.Debug|x86.ActiveCfg = Debug
+		{CBE4C481-CF10-4AD7-8172-D581DB1BBFF7}.Debug|x86.Build.0 = Debug
+		{CBE4C481-CF10-4AD7-8172-D581DB1BBFF7}.Release|Any CPU.ActiveCfg = Release
+		{CBE4C481-CF10-4AD7-8172-D581DB1BBFF7}.Release|x86.ActiveCfg = Release
+		{CBE4C481-CF10-4AD7-8172-D581DB1BBFF7}.Release|x86.Build.0 = Release
+		{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}.Debug|x86.Build.0 = Debug|Any CPU
+		{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}.Release|x86.ActiveCfg = Release|Any CPU
+		{DB842E2A-FAE3-48E6-8B15-90ABC45E645C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://faiq.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IndiaHouseSalesOrder\\IndiaHouseSalesOrder.csproj
+		SccProjectName1 = IndiaHouseSalesOrder
+		SccLocalPath1 = IndiaHouseSalesOrder
+		SccProjectUniqueName2 = Quickbooks\u0020Custom\u0020Sales\u0020Order\\Quickbooks\u0020Custom\u0020Sales\u0020Order.vdproj
+		SccProjectName2 = Quickbooks\u0020Custom\u0020Sales\u0020Order
+		SccLocalPath2 = Quickbooks\u0020Custom\u0020Sales\u0020Order
+		SccProjectUniqueName3 = IndiaHouse.Core\\IndiaHouse.Core.csproj
+		SccProjectName3 = IndiaHouse.Core
+		SccLocalPath3 = IndiaHouse.Core
+	EndGlobalSection
+EndGlobal

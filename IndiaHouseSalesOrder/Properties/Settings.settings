@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IndiaHouseSalesOrder.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ExportPicturesChecked" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ImagesLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\IHB-FILE\Quickbooks Data Files\QuickBooks India House Brass\India House Brass, Inc - Images\</Value>
+    </Setting>
+    <Setting Name="BartenderFileLocation15x2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\ihb-file\IHBData\Labels\QuickBooks Companion Print Labels.btw</Value>
+    </Setting>
+    <Setting Name="ExcelDataSourceLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\ihb-file\IHBData\Labels\QuickBooks Companion Print Labels Data Source.xlsx</Value>
+    </Setting>
+    <Setting Name="CachedItems" Type="System.Collections.Generic.List" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="BartenderFileLocation2x2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\ihb-file\IHBData\Labels\QuickBooks Companion Print Labels 2x2.btw</Value>
+    </Setting>
+    <Setting Name="CustomerLabelBartenderFileLoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\ihb-file\IHBData\Labels\QuickBooks Companion Print Customer Labels.btw</Value>
+    </Setting>
+    <Setting Name="CustomerLabelExcelFileLoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\ihb-file\IHBData\Labels\QuickBooks Companion Print Customer Labels Data Source.xlsx</Value>
+    </Setting>
+    <Setting Name="CachedCustomers" Type="System.Collections.Generic.List" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

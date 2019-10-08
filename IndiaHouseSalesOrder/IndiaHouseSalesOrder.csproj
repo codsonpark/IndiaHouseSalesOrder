@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E38B442-A9CC-48EA-A80D-2E9442639B80}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IndiaHouseSalesOrder</RootNamespace>
+    <AssemblyName>IndiaHouseSalesOrder</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>\\ihb-file\IHBData\Software\India House QuickBooks Companion\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IH BW 2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>94513CBC07CDEE0614B7CCFB88B12DDDC988823E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>IndiaHouseSalesOrder_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.QBFC13, Version=13.0.0.23, Culture=neutral, PublicKeyToken=31d8aec643e18259">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.QBFC13.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Excel\ExcelExportCanadaCustomsInvoice.cs" />
+    <Compile Include="frmCanadaCustomsInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCanadaCustomsInvoice.Designer.cs">
+      <DependentUpon>frmCanadaCustomsInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerEmail.Designer.cs">
+      <DependentUpon>CustomerEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\ExcelExportSalesOrder.cs" />
+    <Compile Include="Excel\ExcelExportCustomers.cs" />
+    <Compile Include="Excel\ExcelExportItems.cs" />
+    <Compile Include="frmCustomersLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomersLabel.Designer.cs">
+      <DependentUpon>frmCustomersLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLabels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLabels.Designer.cs">
+      <DependentUpon>frmLabels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLabelsOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLabelsOptions.Designer.cs">
+      <DependentUpon>frmLabelsOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesOrder.Designer.cs">
+      <DependentUpon>frmSalesOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderServer.Designer.cs">
+      <DependentUpon>frmOrderServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\PopulatePictures.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\SessionManager.cs" />
+    <EmbeddedResource Include="frmCanadaCustomsInvoice.resx">
+      <DependentUpon>frmCanadaCustomsInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerEmail.resx">
+      <DependentUpon>CustomerEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomersLabel.resx">
+      <DependentUpon>frmCustomersLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLabels.resx">
+      <DependentUpon>frmLabels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLabelsOptions.resx">
+      <DependentUpon>frmLabelsOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesOrder.resx">
+      <DependentUpon>frmSalesOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderServer.resx">
+      <DependentUpon>frmOrderServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Excel\Canada Customs Invoice.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Excel\India House Custom Sales Order.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="IndiaHouseSalesOrder_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\Customer.datasource" />
+    <None Include="Properties\DataSources\InventoryItem.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IH BW 2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\IndiaHouse.Core\IndiaHouse.Core.csproj">
+      <Project>{db842e2a-fae3-48e6-8b15-90abc45e645c}</Project>
+      <Name>IndiaHouse.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
